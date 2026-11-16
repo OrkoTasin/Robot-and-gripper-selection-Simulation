@@ -106,3 +106,4 @@ function logs if it returns a platform error page.
 
 See `sample-comparison.csv` and `sample-output.json` for examples of comparison
 results and the first camera scan and placement.
+Visit the website here https://roboticvisionminiprojsimulation.vercel.app/
