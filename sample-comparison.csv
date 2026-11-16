@@ -1,0 +1,18 @@
+Task field,Value
+mass,0.5
+width,64
+surface,rigid
+drive,any
+reach,660
+x,210
+y,200
+z,175
+radial,205
+repeatability,0.05
+accuracy,
+
+Configuration,Model,Payload kg,Workspace,Repeatability mm,Drive,Joints,Status,Score / 100,Tool,Reasons,Source
+Articulated,Universal Robots UR5e,5,850 mm reach,0.03,Electric,RRRRRR,Eligible,47.1,Parallel-jaw gripper,,https://www.universal-robots.com/manuals/EN/HTML/SW5_26/Content/prod-usr-man/complianceUR5e/H_g5_sections/appendix_g5/tech_spec_sheet.htm
+Cartesian,Yamaha SXYx 3-axis ZS6,5,1050 × 650 × 150 mm XYZ strokes,0.02,Electric,PPP,Rejected,,Parallel-jaw gripper,Z stroke 150 mm is below 175 mm.,https://www.yamaha-motor.co.jp/robot/lineup/xyx/shared/pdf/a_SXYx_3_ZS_C_Arm.pdf
+Cylindrical,Seiko RT3300 Standard,5,305 / 120 mm radial / Z strokes,0.025,Electric,RPPR,Rejected,,Parallel-jaw gripper,Z stroke 120 mm is below 175 mm.,https://web.cecs.pdx.edu/~mperkows/CLASS_ROBOTICS/2001/seikoRT3200.pdf
+Polar,Kawasaki-Unimate 2000 (1969),12,Reach unavailable,,Hydraulic,RRPRR,Needs verification,,Parallel-jaw gripper,Reach unavailable. Repeatability unavailable.,https://kawasakirobotics.com/uploads/sites/11/2026/03/Half_a_century_of_Kawasaki_Robotics_EN.pdf

@@ -1,0 +1,11 @@
+{
+  "initial_detections": [
+    {"index": 0, "pixel": [112.0, 138.0], "target": [440.0, -105.0, 55], "area": 624},
+    {"index": 1, "pixel": [132.0, 78.0], "target": [490.0, 45.0, 45], "area": 572},
+    {"index": 2, "pixel": [72.0, 48.0], "target": [340.0, 120.0, 65], "area": 864}
+  ],
+  "placed_part": "Red block",
+  "placed_xyz_mm": [650.0, 95.0, 0],
+  "retreat_tool_xyz_mm": [650.0, 95.0, 174.99999999999997],
+  "retreat_position_error_mm": 2.842170943040401e-14
+}
